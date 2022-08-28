@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Uchen&display=swap');
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    text-align: center;
+    color:yellow;
+}
+table,form{
+    width: 500px;
+    margin: 20px auto;
+    color:white;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+table td,table th{
+    border: solid 2px white;
+}
+label{
+    color:white;
+    display: block;
+    margin: 10px 0;
+    font-size: 20px;
+}
+input{
+    color:black;
+    display: block;
+    margin: 10px 0;
+    font-size: 20px;
+    border-radius: 10px;
+}
+button{
+    display: block;
+    border-radius: 20px;
+}
+button:hover{
+    background-color:yellow;
+}
